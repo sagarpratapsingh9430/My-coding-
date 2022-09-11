@@ -1,0 +1,20 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    int a=1,n,s=5;
+    cin>>n;
+    if(n>a)
+    {
+        for(a=1;a<n;a++)
+        {
+            s=s*a;
+            cout<< s;
+        }
+        cout<< s;
+    }
+    else{
+        cout<<"invalid";
+    }
+}
